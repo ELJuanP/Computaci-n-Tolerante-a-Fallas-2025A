@@ -3,8 +3,7 @@ import json
 from collections import namedtuple
 from contextlib import closing
 import sqlite3
-
-from prefect import task, Flow
+from prefect import flow, task
 
 # Extracción: Obtiene los datos de quejas desde la API del CFPB.
 @task
@@ -17,11 +16,11 @@ def get_complaint_data():
 @task
 def parse_complaint_data(raw):
     complaints = []
-    Complaint = namedtuple('Complaint', ['data_received', 'state', 'product', 'company', 'complaint_what_happened'])
+    Complaint = namedtuple('Complaint', ['date_received', 'state', 'product', 'company', 'complaint_what_happened'])
     for row in raw:
-        source = row.get('_source')
+        source = row.get('_source', {})
         this_complaint = Complaint(
-            data_received=source.get('date_recieved'),
+            date_received=source.get('date_received'),  # Corrección de typo ('date_recieved' → 'date_received')
             state=source.get('state'),
             product=source.get('product'),
             company=source.get('company'),
@@ -35,7 +34,7 @@ def parse_complaint_data(raw):
 def store_complaints(parsed):
     create_script = '''
     CREATE TABLE IF NOT EXISTS complaint (
-        timestamp TEXT,
+        date_received TEXT,
         state TEXT,
         product TEXT,
         company TEXT,
@@ -43,19 +42,20 @@ def store_complaints(parsed):
     );
     '''
     insert_cmd = "INSERT INTO complaint VALUES (?, ?, ?, ?, ?)"
-    
+
     with closing(sqlite3.connect("cfpbcomplaints.db")) as conn:
         with closing(conn.cursor()) as cursor:
             cursor.executescript(create_script)
             cursor.executemany(insert_cmd, parsed)
             conn.commit()
 
-# Definición del flujo de Prefect.
-with Flow("my etl flow") as f:
+# Flujo principal usando la nueva sintaxis de Prefect 2.x
+@flow
+def etl_flow():
     raw = get_complaint_data()
     parsed = parse_complaint_data(raw)
     store_complaints(parsed)
 
-# Ejecución del flujo.
+# Ejecución del flujo
 if __name__ == "__main__":
-    f.run()
+    etl_flow()
