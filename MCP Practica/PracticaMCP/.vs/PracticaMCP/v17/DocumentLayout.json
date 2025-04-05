@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|c:\\users\\juan pablo hernandez\\documents\\computaci-n-tolerante-a-fallas-2025a\\mcp practica\\practicamcp\\practicamcp\\infrastructure\\data\\bdtiendacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|solutionrelative:practicamcp\\infrastructure\\data\\bdtiendacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|c:\\users\\juan pablo hernandez\\documents\\computaci-n-tolerante-a-fallas-2025a\\mcp practica\\practicamcp\\practicamcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|solutionrelative:practicamcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|c:\\users\\juan pablo hernandez\\documents\\computaci-n-tolerante-a-fallas-2025a\\mcp practica\\practicamcp\\practicamcp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|solutionrelative:practicamcp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|c:\\users\\juan pablo hernandez\\documents\\computaci-n-tolerante-a-fallas-2025a\\mcp practica\\practicamcp\\practicamcp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|solutionrelative:practicamcp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|c:\\users\\juan pablo hernandez\\documents\\computaci-n-tolerante-a-fallas-2025a\\mcp practica\\practicamcp\\practicamcp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A04B05BC-9583-4A54-8C2D-A64F58A77C19}|PracticaMCP\\PracticaMCP.csproj|solutionrelative:practicamcp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BdTiendaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\PracticaMCP\\Infrastructure\\Data\\BdTiendaContext.cs",
+              "RelativeDocumentMoniker": "PracticaMCP\\Infrastructure\\Data\\BdTiendaContext.cs",
+              "ToolTip": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\PracticaMCP\\Infrastructure\\Data\\BdTiendaContext.cs",
+              "RelativeToolTip": "PracticaMCP\\Infrastructure\\Data\\BdTiendaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T01:46:23.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\PracticaMCP\\Program.cs",
               "RelativeDocumentMoniker": "PracticaMCP\\Program.cs",
               "ToolTip": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\PracticaMCP\\Program.cs",
               "RelativeToolTip": "PracticaMCP\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T01:00:14.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\PracticaMCP\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PracticaMCP\\Properties\\launchSettings.json",
@@ -57,9 +74,10 @@
               "RelativeDocumentMoniker": "PracticaMCP\\appsettings.json",
               "ToolTip": "C:\\Users\\Juan Pablo Hernandez\\Documents\\Computaci-n-Tolerante-a-Fallas-2025A\\MCP Practica\\PracticaMCP\\PracticaMCP\\appsettings.json",
               "RelativeToolTip": "PracticaMCP\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-05T00:57:16.493Z"
+              "WhenOpened": "2025-04-05T00:57:16.493Z",
+              "EditorCaption": ""
             }
           ]
         }
